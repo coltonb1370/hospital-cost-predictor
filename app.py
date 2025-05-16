@@ -6,7 +6,7 @@ import joblib
 # Load preprocessor and model
 @st.cache_resource
 def load_assets():
-    preprocessor = joblib.load("preprocessor_pipeline.pkl")
+    preprocessor = joblib.load("preprocessor_pipeline_v2.pkl")
     model = joblib.load("xgboost_model.pkl")
     return preprocessor, model
 
