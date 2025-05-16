@@ -1,0 +1,29 @@
+
+Testing Documentation for Hospital Billing Predictor
+
+✅ Function: Data Preprocessing
+- Input: Patient record with categorical + numeric values
+- Expected: Proper encoding, scaling, and imputation
+- Status: PASSED (preprocessor_pipeline_v2.pkl)
+
+✅ Function: Prediction Engine
+- Input: Processed feature matrix
+- Output: Numeric cost estimate
+- Status: PASSED (tested with XGBoost and sample patient)
+
+✅ Function: Streamlit Interface
+- Input: User input via sidebar
+- Output: Prediction displayed, plot loaded
+- Status: PASSED (manual test with valid/invalid inputs)
+
+✅ Function: Evaluation Plot
+- Input: Model predictions + true values
+- Output: Plot of Predicted vs. Actual billing
+- Status: PASSED (model_evaluation_plot.png displayed in app)
+
+✅ Function: Help and Logging
+- Help expandable tested in UI
+- Logs created in training_log.txt
+- Status: PASSED
+
+All core app functions were manually validated using simulated and real test cases.
