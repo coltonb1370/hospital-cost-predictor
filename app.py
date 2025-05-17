@@ -62,7 +62,7 @@ if st.button("Predict Billing Amount"):
 
 # Help section
 with st.expander("ℹ️ Help"):
-    st.markdown(\"""
+    st.markdown("""
     Use the sidebar to enter patient data, then click **Predict Billing Amount**.
     You will receive a predicted treatment cost and a visualization of model accuracy.
-    \""")
+    """)
